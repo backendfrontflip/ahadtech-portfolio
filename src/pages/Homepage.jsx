@@ -12,15 +12,9 @@ const Homepage = () => {
             <h1 className='font-bold text-2xl text-center m-6 p-6 bg-white text-black border rounded-3xl'>
               Hello!, <br /> I'm <span>Abdulahad.</span> <br /> Web Developer and Designer.
             </h1>
-            <Link to="/contact" className='flex justify-center m-6 font-bold text-3xl hover:text-gray-500'>Contact</Link>
           </div>
 
-          <div className='flex items-start flex-grid gap-4 mt-4 mb-8 m-6 justify-center reveal'>
-            <a href="https://youtube.com/@codespacecadet?si=UdFs1SyHptNvrUwk" className='hover:text-gray-500'><FaYoutube /></a>
-            <a href="https://github.com/backendfrontflip" className='hover:text-gray-500'><FaGithub /></a>
-            <a href="https://www.instagram.com/codespacecadet?igsh=MXE0ZWlybjQ5amxm&utm_source=qr" className='hover:text-gray-500'><FaInstagram /></a>
-            <a href="https://www.facebook.com/share/16EvinmePg/?mibextid=wwXIfr" className='hover:text-gray-500'><FaFacebook /></a>
-          </div>
+          
 
           <div className='flex items-center justify-center reveal'>
             <img
@@ -30,6 +24,17 @@ const Homepage = () => {
             />
           </div>
         </section>
+
+        <div>
+        <Link to="/contact" className='flex justify-center mb-4 m-6 font-bold text-3xl hover:text-gray-500'>Contact</Link>
+        </div>
+
+        <div className='flex items-start flex-grid gap-4 mt-6 mb-8 m-6 justify-center reveal'>
+          <a href="https://youtube.com/@codespacecadet?si=UdFs1SyHptNvrUwk" className='hover:text-gray-500'><FaYoutube /></a>
+          <a href="https://github.com/backendfrontflip" className='hover:text-gray-500'><FaGithub /></a>
+          <a href="https://www.instagram.com/codespacecadet?igsh=MXE0ZWlybjQ5amxm&utm_source=qr" className='hover:text-gray-500'><FaInstagram /></a>
+          <a href="https://www.facebook.com/share/16EvinmePg/?mibextid=wwXIfr" className='hover:text-gray-500'><FaFacebook /></a>
+        </div>
 
         <article className='flex justify-center mt-16'>
           <Link
