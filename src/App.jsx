@@ -22,7 +22,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/ahadtech-portfolio">
       <ScrollRevealWrapper>
         <Header />
         <Routes>

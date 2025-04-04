@@ -16,18 +16,18 @@ const Homepage = () => {
           </div>
 
           <div className='flex items-start flex-grid gap-4 mt-4 mb-8 m-6 justify-center reveal'>
-            <a href="#" className='hover:text-gray-500'><FaYoutube /></a>
-            <a href="#" className='hover:text-gray-500'><FaGithub /></a>
-            <a href="#" className='hover:text-gray-500'><FaInstagram /></a>
-            <a href="#" className='hover:text-gray-500'><FaFacebook /></a>
+            <a href="https://youtube.com/@codespacecadet?si=UdFs1SyHptNvrUwk" className='hover:text-gray-500'><FaYoutube /></a>
+            <a href="https://github.com/backendfrontflip" className='hover:text-gray-500'><FaGithub /></a>
+            <a href="https://www.instagram.com/codespacecadet?igsh=MXE0ZWlybjQ5amxm&utm_source=qr" className='hover:text-gray-500'><FaInstagram /></a>
+            <a href="https://www.facebook.com/share/16EvinmePg/?mibextid=wwXIfr" className='hover:text-gray-500'><FaFacebook /></a>
           </div>
 
           <div className='flex items-center justify-center reveal'>
-          <img
-            src={process.env.PUBLIC_URL + "/images/ahadpic12.jpg"}
-            alt="Ahad"
-            className='w-60 h-full border rounded-full'
-/>
+            <img
+              src={import.meta.env.BASE_URL + "/images/ahadpic12.jpg"}
+              alt="Ahad"
+              className='w-60 h-full border rounded-full'
+            />
           </div>
         </section>
 
