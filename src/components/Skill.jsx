@@ -31,7 +31,7 @@ const Skill = () => {
       </div>
 
       <div className='reveal'>
-        <ul>
+        <ul className=''>
           <li className='flex flex-row gap-4'>
             <p className="border rounded-full p-2 font-bold text-xl mb-2 mt-4 m-4 mb-6">FRONTEND DEV:</p>
           </li>
@@ -59,7 +59,7 @@ const Skill = () => {
         </ul>
       </div>
 
-      <div className='flex justify-center m-4 gap-6 font-bold text-2xl mb-10 mt-32 reveal'>
+      <div className='flex items-start m-4 gap-6 font-bold text-2xl mb-10 mt-32 reveal'>
         <FaCircleInfo />
         <p className='border-b p-2 -mt-3'>Capability</p>
       </div>

@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <div className='flex justify-center reveal'>
-          <img src="public/images/ahadpic11.jpg" alt="" className='w-60 h-full border rounded-3xl'/>
+          <img src={import.meta.env.BASE_URL + "public/images/ahadpic11.jpg"} alt="" className='w-60 h-full border rounded-3xl'/>
         </div>
 
         <div className='flex justify-center mt-2 reveal'>

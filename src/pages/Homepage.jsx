@@ -23,11 +23,11 @@ const Homepage = () => {
           </div>
 
           <div className='flex items-center justify-center reveal'>
-            <img
-              src="/images/ahadpic12.jpg"
-              alt="Ahad"
-              className='w-60 h-full border rounded-full'
-            />
+          <img
+            src={process.env.PUBLIC_URL + "/images/ahadpic12.jpg"}
+            alt="Ahad"
+            className='w-60 h-full border rounded-full'
+/>
           </div>
         </section>
 
